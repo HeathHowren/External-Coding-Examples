@@ -15,12 +15,11 @@ void OperationThree() {
 }
 
 void main() {
+	std::thread first(OperationOne);
+	std::thread second(OperationTwo);
+	std::thread third(OperationThree);
 	while (!GetAsyncKeyState(VK_END))
-	{
-		std::thread first(OperationOne);
-		std::thread second(OperationTwo);
-		std::thread third(OperationThree);
-		
+	{	
 		first.join();
 		second.join();               
 		third.join();
