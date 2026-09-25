@@ -9,7 +9,7 @@ Four short C++ files that go with the **Reverse Engineering Fundamentals** lesso
 | [`Null Pointer Checks.cpp`](Null%20Pointer%20Checks.cpp) | The same pointer walk, checked at every level so a zero halfway down the chain does not crash you | [Reading and writing a pointer with offsets](https://www.youtube.com/watch?v=epyamsQtAGs) |
 | [`Threading Example.cpp`](Threading%20Example.cpp) | Running several features at once on their own `std::thread`s | [Threads in C++](https://www.youtube.com/watch?v=XdxwmDG7E60) |
 
-> Written in 2020. Practise on software you own or on open-source games, never on online multiplayer games. [Pointer Lab](https://gamereversal.club/tools/pointer-lab/), the free, open-source memory tool, ships with a tutorial target built for exactly this kind of practice.
+> Written in 2020. Practice on software you own or on open-source games, never on online multiplayer games. [Pointer Lab](https://gamereversal.club/tools/pointer-lab/), the free, open-source memory tool, ships with a tutorial target built for exactly this kind of practice.
 
 ## Building
 
